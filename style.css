@@ -1,0 +1,212 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: cursive;
+    font-size: x-large;
+    color: green;
+    animation: title 1s 1 linear backwards;
+    animation-delay: 10s;
+    position: absolute;
+    top: 0;
+    width: 700px;
+}
+
+@keyframes title {
+    from {
+        top: -220px;
+    }
+}
+
+.title-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.frame {
+    height: 100vh;
+    width: 700px;
+    background-color: aquamarine;
+}
+
+.village {
+    position: fixed;
+    bottom: 0;
+}
+
+.house1 {
+    height: 200px;
+    bottom: 120px;
+    position: absolute;
+    z-index: 2;
+    margin-bottom: -40px;
+    animation: house1 2s 1 linear backwards;
+    animation-delay: 4s;
+}
+
+@keyframes house1 {
+    from {
+        bottom: -200px;
+    }
+}
+
+.house2 {
+    height: 100px;
+    bottom: 200px;
+    margin-left: 17%;
+    position: absolute;
+    z-index: 1;
+    bottom: 170px;
+    animation: house2 2s 1  linear backwards;
+    animation-delay: 3s;
+}
+
+@keyframes house2 {
+    from {
+        bottom: -100px;
+    }
+}
+
+.tree1 {
+    height: 150px;
+    position: absolute;
+    margin-left: 30px;
+    z-index: 5;
+    bottom: 50px;
+    animation: tree1 2s 1 linear backwards;
+    animation-delay: 6s;
+}
+
+@keyframes tree1 {
+    from {
+        bottom: -200px;
+    }
+}
+
+.tree4 {
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.tree5 {
+    height: 200px;
+    position: absolute;
+    margin-left: 80%;
+    bottom: 100px;
+    animation: tree5 2s 1  linear backwards;
+    animation-delay: 1s;
+}
+
+@keyframes tree5 {
+    from {
+        bottom: -300px;
+    }
+}
+
+.tree6 {
+    height: 100px;
+    position: absolute;
+    margin-left: 30%;
+    bottom: 190px;
+    animation: tree6 2s 1  linear backwards;
+    animation-delay: 3s;
+}
+
+@keyframes tree6 {
+    from {
+        bottom: -100px;
+    }
+}
+
+.grass {
+    height: 100px;
+    position: absolute;
+    z-index: 4;
+    bottom: 10px;
+    margin-left: 70%;
+    animation: grass 1s 1  linear backwards;
+    animation-delay: 8s;
+}
+
+
+@keyframes grass {
+    from {
+        bottom: -100px;
+    }
+}
+
+.tree2 {
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    margin-left: -130px;
+    bottom: 170px;
+    animation: tree2 2s 1  linear backwards;
+    animation-delay: 2s;
+}
+
+@keyframes tree2 {
+    from {
+        bottom: -500px;
+    }
+}
+
+.island {
+    background-color: green;
+    height: 200px;
+    width: 700px;
+    border-radius: 100%/100px 100px 0 0;
+    animation: island 2s 1  linear backwards;
+}
+
+@keyframes island {
+    from {
+        height: 0;
+    }
+}
+
+.dog {
+    position: absolute;
+    width: 50px;
+    display: flex;
+    margin-left: 50%;
+    bottom: 70px;
+    z-index: 3;
+    animation: dog 2s 1 linear backwards;
+    animation-delay: 4s;
+}
+
+@keyframes dog {
+    from {
+        bottom: -200px;
+    }
+}
+
+.well {
+    position: absolute;
+    height: 150px;
+    display: flex;
+    margin-left: 25%;
+    z-index: 3;
+    bottom: 0;
+    animation: well 2s 1 linear backwards;
+    animation-delay: 8s;
+}
+
+@keyframes well {
+    from {
+        bottom: -200px;
+    }
+}
+
+.house-tree {
+    margin-left: 50%;
+    display: flex;
+}
+
+
+
